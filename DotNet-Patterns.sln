@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# RemObjects Fire
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "ConsoleApplication", "ConsoleApplication\ConsoleApplication.elements", "{AA4F5482-372C-43FF-9A72-882F6AEC81BA}"
+EndProject
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "Core", "Core\Core.elements", "{A918FF5C-21F6-4205-881F-92A25A7FE70C}"
+EndProject
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "CoreConsoleApplication", "CoreConsoleApplication\CoreConsoleApplication.elements", "{BE59D012-BF4C-4308-8C68-F838207B592B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA4F5482-372C-43FF-9A72-882F6AEC81BA}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{AA4F5482-372C-43FF-9A72-882F6AEC81BA}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{AA4F5482-372C-43FF-9A72-882F6AEC81BA}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{AA4F5482-372C-43FF-9A72-882F6AEC81BA}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{BE59D012-BF4C-4308-8C68-F838207B592B}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{BE59D012-BF4C-4308-8C68-F838207B592B}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{BE59D012-BF4C-4308-8C68-F838207B592B}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{BE59D012-BF4C-4308-8C68-F838207B592B}.Release|AnyCPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

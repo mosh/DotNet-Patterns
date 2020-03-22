@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProductVersion>3.5</ProductVersion>
+    <RootNamespace>ConsoleApplication</RootNamespace>
+    <ProjectGuid>{AA4F5482-372C-43FF-9A72-882F6AEC81BA}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <ApplicationIcon>Properties\App.ico</ApplicationIcon>
+    <Configuration Condition="'$(Configuration)' == ''">Release</Configuration>
+    <TargetFramework>.NETFramework4.8</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <Optimize>False</Optimize>
+    <OutputPath>.\Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;</DefineConstants>
+    <GeneratePDB>True</GeneratePDB>
+    <GenerateMDB>True</GenerateMDB>
+    <EnableAsserts>True</EnableAsserts>
+    <CpuType>anycpu</CpuType>
+    <EnableUnmanagedDebugging>False</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>.\Bin\Release</OutputPath>
+    <CpuType>anycpu</CpuType>
+    <EnableUnmanagedDebugging>False</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <NuGetReference Include="Microsoft.Extensions.DependencyInjection:[3.0.0]">
+      <Private>True</Private>
+    </NuGetReference>
+    <NuGetReference Include="Microsoft.Extensions.Configuration.Json:[3.0.0]">
+      <Private>True</Private>
+    </NuGetReference>
+    <NuGetReference Include="Microsoft.Extensions.Configuration:[3.0.0]">
+      <Private>True</Private>
+    </NuGetReference>
+    <NuGetReference Include="Microsoft.Extensions.Configuration.Binder:[3.0.0]">
+      <Private>True</Private>
+    </NuGetReference>
+    <NuGetReference Include="Microsoft.Extensions.Logging.Console:[3.0.0]" />
+    <NuGetReference Include="Microsoft.Extensions.Logging:[3.0.0]" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.pas" />
+    <Compile Include="Properties\AssemblyInfo.pas" />
+    <Content Include="Properties\App.ico" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.pas" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+    </None>
+    <Compile Include="Properties\Settings.Designer.pas" />
+    <None Include="appsettings.json">
+      <CopyToOutput>PreserveNewest</CopyToOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\RemObjects Software\Elements\RemObjects.Elements.Echoes.targets" />
+  <Import Project="..\Core\Core.projitems" Label="Shared" />
+</Project>
