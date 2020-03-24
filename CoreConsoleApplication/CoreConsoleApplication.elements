@@ -62,7 +62,7 @@
     </None>
     <Compile Include="Properties\Settings.Designer.pas" />
     <None Include="appsettings.json">
-      <CopyToOutput>PreserveNewest</CopyToOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\RemObjects Software\Elements\RemObjects.Elements.Echoes.targets" />
