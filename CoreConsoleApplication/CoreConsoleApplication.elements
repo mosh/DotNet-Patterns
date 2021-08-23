@@ -27,9 +27,6 @@
     <EnableUnmanagedDebugging>False</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Echoes">
-      <Private>True</Private>
-    </Reference>
     <NuGetReference Include="Microsoft.Extensions.DependencyInjection:[3.0.0]">
       <Private>True</Private>
     </NuGetReference>

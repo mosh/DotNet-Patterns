@@ -7,6 +7,8 @@ Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "Core", "Core\Core.elements"
 EndProject
 Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "CoreConsoleApplication", "CoreConsoleApplication\CoreConsoleApplication.elements", "{BE59D012-BF4C-4308-8C68-F838207B592B}"
 EndProject
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "WorkerServiceConsoleApplication", "WorkerServiceConsoleApplication\WorkerServiceConsoleApplication.elements", "{B9B3ADB9-E987-4B6C-8630-DB7AE7622AB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AnyCPU = Debug|AnyCPU
@@ -21,6 +23,10 @@ Global
 		{BE59D012-BF4C-4308-8C68-F838207B592B}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
 		{BE59D012-BF4C-4308-8C68-F838207B592B}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
 		{BE59D012-BF4C-4308-8C68-F838207B592B}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{B9B3ADB9-E987-4B6C-8630-DB7AE7622AB4}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{B9B3ADB9-E987-4B6C-8630-DB7AE7622AB4}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{B9B3ADB9-E987-4B6C-8630-DB7AE7622AB4}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{B9B3ADB9-E987-4B6C-8630-DB7AE7622AB4}.Release|AnyCPU.Build.0 = Release|AnyCPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
