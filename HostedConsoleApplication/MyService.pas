@@ -5,8 +5,6 @@ uses
 
 type
   MyService = public class(IHostedService)
-  private
-  protected
   public
 
     method StartAsync(cancellationToken: System.Threading.CancellationToken): Task;
@@ -18,6 +16,7 @@ type
     begin
       exit Task.CompletedTask;
     end;
+
   end;
 
 end.
