@@ -1,0 +1,20 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# RemObjects Fire
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "HostedConsoleApplication", "HostedConsoleApplication.elements", "{82A00C0E-753C-4DD5-8B98-C367022BF544}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82A00C0E-753C-4DD5-8B98-C367022BF544}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{82A00C0E-753C-4DD5-8B98-C367022BF544}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{82A00C0E-753C-4DD5-8B98-C367022BF544}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{82A00C0E-753C-4DD5-8B98-C367022BF544}.Release|AnyCPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
